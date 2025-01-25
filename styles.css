@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000; /* Set background to black */
+    color: #fff; /* Set text color to white for contrast */
 }
 
 header {
@@ -36,12 +37,12 @@ section {
 }
 
 .movie {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #222; /* Darker background for movie sections */
+    border: 1px solid #444; /* Slightly lighter border */
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
 }
 
 .movie h3 {
@@ -49,7 +50,7 @@ section {
 }
 
 button {
-    background: #28a745;
+    background: #28a745; /* Green button */
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -58,7 +59,7 @@ button {
 }
 
 button:hover {
-    background: #218838;
+    background: #218838; /* Darker green on hover */
 }
 
 footer {

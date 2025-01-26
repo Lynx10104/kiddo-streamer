@@ -1,3 +1,4 @@
 function downloadMovie(link) {
-    window.location.href = link; // Directly redirect to the download link
+    alert("You will be redirected to download the movie.");
+    window.location.href = link; // Replace with actual download link
 }
